@@ -1,0 +1,12 @@
+header {
+  padding: 16px 0px;
+  text-align: center;
+  background-color: #A0EC23;
+}
+
+header h1 {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+}
+
