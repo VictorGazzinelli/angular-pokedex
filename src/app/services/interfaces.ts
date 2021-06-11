@@ -16,7 +16,7 @@ export interface IPokemon {
   height: number,
   weight: number,
   sprites: ISprites,
-  types: INameUrlItem[]
+  types: ITypes[]
   /* Some additional props*/
 }
 
@@ -29,4 +29,17 @@ export interface ISprites {
   front_female: string| null,
   front_shiny: string| null,
   front_shiny_female:null
+}
+
+export interface ITypes {
+  slot: number
+  type: INameUrlItem
+}
+
+export interface IMove {
+  id: number,
+  name: string,
+  power: number,
+  accuracy: number,
+  pp: number,
 }

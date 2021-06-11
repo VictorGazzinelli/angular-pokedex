@@ -1,0 +1,13 @@
+.moves-card {
+  display: flex;
+  padding: 16px;
+  margin: 16px;
+  width: 240px;
+  height: 100px;
+  border: solid 2px black;
+
+}
+
+.moves-card  .moves-card-description {
+  text-transform: uppercase;
+}

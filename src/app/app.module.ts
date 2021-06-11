@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PokemonListComponent } from './components/pokemon-list/pokemon-list.component';
 import { PokemonCardComponent } from './components/pokemon-list/pokemon-card/pokemon-card.component';
+import { MovesListComponent } from './components/moves-list/moves-list.component';
+import { MovesCardComponent } from './components/moves-list/moves-card/moves-card.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PokemonCardComponent } from './components/pokemon-list/pokemon-card/pok
     HeaderComponent,
     FooterComponent,
     PokemonListComponent,
-    PokemonCardComponent
+    PokemonCardComponent,
+    MovesListComponent,
+    MovesCardComponent
   ],
   imports: [
     BrowserModule,
