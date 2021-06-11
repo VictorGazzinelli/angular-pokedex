@@ -31,6 +31,10 @@ export interface ISprites {
   front_shiny_female:null
 }
 
+export interface IItemSprites {
+  default: string,
+}
+
 export interface ITypes {
   slot: number
   type: INameUrlItem
@@ -42,4 +46,15 @@ export interface IMove {
   power: number,
   accuracy: number,
   pp: number,
+}
+
+export interface IItem {
+  id: number,
+  name: string,
+  sprites: IItemSprites
+  effect_entries: IEffectEntry[]
+}
+
+export interface IEffectEntry {
+  effect: string
 }

@@ -1,0 +1,24 @@
+.items-card {
+  display: flex;
+  padding: 16px;
+  margin: 16px;
+  width: 240px;
+  height: 300px;
+  border: solid 2px black;
+
+}
+
+.items-card img {
+  width: 96px;
+  height: 96px;
+  justify-content: center;
+  align-items: center;
+}
+
+.items-card  .items-card-description {
+  text-transform: uppercase;
+}
+
+.items-card  .items-card-description  p{
+  font-size: 12px;
+}
