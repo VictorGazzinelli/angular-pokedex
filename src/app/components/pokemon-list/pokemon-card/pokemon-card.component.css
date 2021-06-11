@@ -1,0 +1,20 @@
+.pokemon-card {
+  display: flex;
+  padding: 16px;
+  margin: 16px;
+  width: 240px;
+  height: 100px;
+  border: solid 2px black;
+
+}
+
+.pokemon-card img {
+  width: 96px;
+  height: 96px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-card  .pokemon-card-description {
+  text-transform: uppercase;
+}

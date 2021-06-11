@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PokemonListComponent } from './components/pokemon-list/pokemon-list.component';
+import { PokemonCardComponent } from './components/pokemon-list/pokemon-card/pokemon-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    PokemonListComponent
+    PokemonListComponent,
+    PokemonCardComponent
   ],
   imports: [
     BrowserModule,
